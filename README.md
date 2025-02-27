@@ -20,7 +20,7 @@ LyricsSync is a Python script that searches for synchronized lyrics (in LRC form
 
 ## Ignoring the 401 Error
 
-If you encounter a `401 Unauthorized` error while running the script, it means the lyrics provider has restricted access. This is a known issue with some external APIs. You can safely ignore this error, as the script will continue processing other files.
+If you encounter a `401 Unauthorized` error while running the script, it means the lyrics provider has restricted access. This is a known issue with some external APIs. You can safely ignore this error, as the script will work.
 
 ----------
 
@@ -35,7 +35,7 @@ If you encounter a `401 Unauthorized` error while running the script, it means t
 
 Make sure you have Python 3.7 or higher installed. Then, install the required libraries:
 
-pip install mutagen syncedlyrics
+```pip install mutagen syncedlyrics```
 
 ----------
 
